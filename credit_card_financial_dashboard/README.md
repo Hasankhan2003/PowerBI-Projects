@@ -6,7 +6,7 @@ This repository contains an end‑to‑end analytics project that combines credi
 
 The solution uses two core datasets:
 
-- `credit_card.csv` with weekly transaction and product metrics such as card category, credit limits, utilization, revenue, and interest earned.[1]
+- `credit_card.csv` with weekly transaction and product metrics such as card category, credit limits, utilization, revenue, and interest earned.
 - `customer.csv` with demographics, socio‑economic attributes, and satisfaction scores for each client.
 
 Two dashboards, **Credit Card Customer Report** and **Credit Card Transaction Report**, summarize revenue, income, interest, and behavior across segments like age, income, education, dependency, marital status, card category, and spend type.
