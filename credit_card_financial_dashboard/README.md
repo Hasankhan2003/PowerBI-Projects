@@ -1,15 +1,15 @@
 # Credit Card Analytics Dashboard
 
-This repository contains an end‑to‑end analytics project that combines credit card **transaction** data with **customer** profile data to build interactive BI dashboards for portfolio monitoring and customer insights.[1][2][3][4]
+This repository contains an end‑to‑end analytics project that combines credit card **transaction** data with **customer** profile data to build interactive BI dashboards for portfolio monitoring and customer insights.
 
 ## Project overview
 
 The solution uses two core datasets:
 
 - `credit_card.csv` with weekly transaction and product metrics such as card category, credit limits, utilization, revenue, and interest earned.[1]
-- `customer.csv` with demographics, socio‑economic attributes, and satisfaction scores for each client.[2]
+- `customer.csv` with demographics, socio‑economic attributes, and satisfaction scores for each client.
 
-Two dashboards, **Credit Card Customer Report** and **Credit Card Transaction Report**, summarize revenue, income, interest, and behavior across segments like age, income, education, dependency, marital status, card category, and spend type.[3][4]
+Two dashboards, **Credit Card Customer Report** and **Credit Card Transaction Report**, summarize revenue, income, interest, and behavior across segments like age, income, education, dependency, marital status, card category, and spend type.
 
 ## Data model
 
@@ -17,8 +17,8 @@ The analytical model links transaction‑level and customer‑level data through
 
 | Table | Description | Key columns |
 | --- | --- | --- |
-| `credit_card` | Weekly credit card KPIs at client level | `Client_Num`, `Card_Category`, `Annual_Fees`, `Activation_30_Days`, `Customer_Acq_Cost`, `Week_Start_Date`, `Week_Num`, `Qtr`, `current_year`, `Credit_Limit`, `Total_Revolving_Bal`, `Total_Trans_Amt`, `Total_Trans_Vol`, `Avg_Utilization_Ratio`, `Use Chip`, `Exp Type`, `Interest_Earned`, `Delinquent_Acc`.[1] |
-| `customer` | Customer profile and satisfaction | `Client_Num`, `Customer_Age`, `Gender`, `Dependent_Count`, `Education_Level`, `Marital_Status`, `state_cd`, `Zipcode`, `Car_Owner`, `House_Owner`, `Personal_loan`, `contact`, `Customer_Job`, `Income`, `Cust_Satisfaction_Score`.[2] |
+| `credit_card` | Weekly credit card KPIs at client level | `Client_Num`, `Card_Category`, `Annual_Fees`, `Activation_30_Days`, `Customer_Acq_Cost`, `Week_Start_Date`, `Week_Num`, `Qtr`, `current_year`, `Credit_Limit`, `Total_Revolving_Bal`, `Total_Trans_Amt`, `Total_Trans_Vol`, `Avg_Utilization_Ratio`, `Use Chip`, `Exp Type`, `Interest_Earned`, `Delinquent_Acc`.
+| `customer` | Customer profile and satisfaction | `Client_Num`, `Customer_Age`, `Gender`, `Dependent_Count`, `Education_Level`, `Marital_Status`, `state_cd`, `Zipcode`, `Car_Owner`, `House_Owner`, `Personal_loan`, `contact`, `Customer_Job`, `Income`, `Cust_Satisfaction_Score`. |
 
 The relationship enables slicing transaction KPIs by demographic and behavioral attributes.
 
@@ -39,12 +39,12 @@ Key features:
 
 ### Credit Card Transaction Report
 
-The **transaction‑focused** dashboard (`Transaction_report.jpg`) analyses how cards are used and which products drive value.[4]
+The **transaction‑focused** dashboard (`Transaction_report.jpg`) analyses how cards are used and which products drive value.
 
 Key features:
 
-- Portfolio KPIs: revenue (57M), total transaction amount (46M), income (588M), and total transaction count (667K).[4]
-- Card category performance table with revenue, total transaction amount, and interest earned by category (Blue, Silver, Gold, Platinum).[4]
+- Portfolio KPIs: revenue (57M), total transaction amount (46M), income (588M), and total transaction count (667K).
+- Card category performance table with revenue, total transaction amount, and interest earned by category (Blue, Silver, Gold, Platinum).
 - QTR performance: combined bar‑and‑line chart for quarterly revenue and transaction count.
 - Behavioral breakdowns:
   - Revenue by expense type (Bills, Entertainment, Fuel, Grocery, Food).
