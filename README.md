@@ -4,16 +4,16 @@ This repository is a collection of **Power BI / analytics projects**, each store
 
 - Each project lives in a separate top‑level folder.  
 - Every project folder contains:
-  - One or more raw data files (typically CSV/Excel).  
-  - A BI/Power BI report file (for example, `.pbix`) or notebook/script.  
+  - One or more raw data files (CSV/Excel).  
+  - A Power BI report file (`.pbix`).  
   - A `README.md` describing that specific project, data model, and dashboards.  
-  - Optional exported dashboard images for quick preview.
+  - Exported dashboard images for quick preview.
 
 ## Technology stack
 
 While each project can differ slightly, most of them typically use:
 
-- Power BI (or another BI tool) for data modeling and dashboarding.  
+- Power BI for data modeling and dashboarding.  
 - CSV/Excel files as primary data sources.  
 - Basic data‑cleaning steps such as type casting, calculated columns/measures, and relationships between tables inside the BI model.
 
