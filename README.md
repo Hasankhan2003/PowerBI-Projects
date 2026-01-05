@@ -1,4 +1,4 @@
-This repository is a collection of **Power BI / analytics projects**, each stored in its own folder with a dedicated README and assets (datasets, report files, and exported dashboards). The main README provides an overview of how the repo is structured and how to work with any current or future project folders.[17]
+This repository is a collection of **Power BI / analytics projects**, each stored in its own folder with a dedicated README and assets (datasets, report files, and exported dashboards). The main README provides an overview of how the repo is structured and how to work with any current or future project folders.
 
 ## Repository structure
 
